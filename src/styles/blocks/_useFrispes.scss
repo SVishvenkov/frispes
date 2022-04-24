@@ -1,0 +1,36 @@
+.use-frispes-inner {
+  @include inner;
+}
+
+.use-frispes-head {
+    text-align: center;
+}
+
+.use-frispes-title {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  color: #0d2c4a;
+  margin-bottom: 21px;
+}
+
+.use-frispes-subtitle {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #9A9A9A;
+  margin-bottom: 56px;
+}
+
+.uses {
+    display: flex;
+    justify-content: center;
+    
+    li {
+        padding-right: 60px;
+    }
+}

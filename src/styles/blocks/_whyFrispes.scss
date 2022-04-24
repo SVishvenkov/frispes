@@ -1,0 +1,75 @@
+.why-frispes {
+    margin-top: 110px;
+}
+
+.why-frispes-inner {
+    @include inner;
+}
+
+.our-support {
+    display: flex;
+}
+
+.card-support-text {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+}
+
+.card-support-subtitle {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.why-frispes-text {
+    padding: 54px;
+}
+
+.why-frispes-intro {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 8px;
+
+}
+
+.why-frispes-title {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  padding-bottom: 24px;
+}
+
+.why-frispes-content {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.card-support {
+    width: 50%;
+    color: $color-dark;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-item {
+    width: 50%;
+}
+
+.why-frispes-text {
+    width: 50%;
+    color: #FFFFFF;
+    background-color: $color-dark;
+}

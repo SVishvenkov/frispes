@@ -1,0 +1,64 @@
+.intro {
+  margin-top: 60px;
+}
+
+.intro-inner {
+  @include inner;
+}
+
+.introducting {
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 8px;
+}
+
+.accent {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 67px;
+  color: $color-accent;
+}
+
+.intro-text {
+  width: 58.33%;
+}
+
+.intro-sub {
+  margin-left: 60px;
+  width: 41.66%;
+}
+
+.intro-title {
+  font-family: "Lora";
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 67px;
+  color: $color-dark;
+  text-align: left;
+}
+.nw {
+  white-space: nowrap;
+}
+
+.intro-subtitle {
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #6a6a6a;
+}
+
+.intro-wrap {
+  display: flex;
+}
+
+.intro-slider {
+  margin-top: 33px;
+  margin-bottom: 122px;
+}
+
+

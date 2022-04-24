@@ -1,0 +1,34 @@
+.our-space {
+  margin-top: 110px;
+}
+
+.our-space-inner {
+  @include inner;
+}
+
+.our-space-title {
+  font-family: "Lora";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  color: $color-dark;
+  width: 33.33%;
+}
+
+.our-space-subtitle {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #9a9a9a;
+  width: 41.66%;
+}
+
+.our-space-nav {
+  width: 24.99%;
+}
+.our-space-head {
+  display: flex;
+  justify-content: space-between;
+}

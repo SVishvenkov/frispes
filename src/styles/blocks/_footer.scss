@@ -1,0 +1,78 @@
+.footer {
+  background-color: #0d2c4a;
+  padding-top: 56px;
+  padding-bottom: 117px;
+}
+
+.footer-inner {
+  @include inner;
+}
+.footer-wrap {
+  display: flex;
+}
+
+.footer-logo {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 67px;
+  color: $color-white;
+  margin-bottom: 16px;
+}
+
+.footer-about {
+  width: 24.99%;
+  margin-right: 125px;
+}
+
+.footer-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 24px;
+  color: rgba(248, 248, 248, .85);
+}
+
+.soc-med {
+  display: flex;
+  align-items: center;
+  li {
+    margin-right: 16px;
+  }
+}
+
+.footer-content {
+    padding-right: 68px;
+
+  li {
+      margin-bottom: 8px;
+    a, p {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: $color-white;
+    }
+
+    .active {
+        color: $color-accent;
+    }
+  }
+  display: flex;
+  width: 74.97%;
+  justify-content: space-between;
+}
+
+.footer-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 24px;
+}

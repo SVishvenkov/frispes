@@ -1,0 +1,129 @@
+.news {
+  padding-top: 60px;
+  padding-bottom: 96px;
+  background: #f8f8f8;
+}
+
+.news-inner {
+  @include inner;
+}
+
+.news-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 56px;
+}
+
+.news-title {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41px;
+  color: #222831;
+}
+
+.news-button {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ff5722;
+  border: none;
+  background: #f8f8f8;
+}
+
+.primary-news {
+  display: flex;
+  width: 66.66%;
+  padding: 15px;
+}
+
+.primary-title {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41px;
+  color: #222831;
+}
+
+.primary-text {
+  background: #ffffff;
+  margin-right: 15px;
+  padding: 32px 33px 0 33px;
+}
+
+.primary-title {
+  margin-bottom: 24px;
+}
+
+.author {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.author-img {
+  padding-right: 23px;
+}
+
+.primary-subt,
+.author-desc {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #9a9a9a;
+  margin-bottom: 16px;
+}
+
+.author-name {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #10375c;
+}
+
+.news-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.features-card {
+  width: 33.33%;
+  padding: 15px;
+}
+
+.features-title {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 4px;
+}
+
+.features-desc {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.img-card {
+  width: 100%;
+}
+
+.features-info {
+  background: #ffffff;
+}
+
+.shadow {
+    box-shadow: (0px 6px 24px rgba(0, 0, 0, 0.15));
+}

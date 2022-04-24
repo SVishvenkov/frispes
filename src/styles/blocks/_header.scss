@@ -1,0 +1,63 @@
+.header-inner {
+    @include inner;
+  }
+  
+  .header-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .head-logo {
+    margin-top: 5px;
+    margin-bottom: 6px;
+  }
+  .header-logo {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: $color-dark;
+  }
+  
+  .menu {
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    list-style: none;
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 3px;
+  
+  
+    a {
+      color: $color-dark;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .menu-active {
+      color: $color-accent;
+    }
+  }
+  
+  .login {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 12px;
+  }
+  
+  .log-in {
+    color: $color-accent;
+    padding: 12px 24px;
+  }
+  
+  .sign-up {
+    padding: 12px 24px;
+    color: $color-white;
+    background-color: $color-accent;
+  }
+  

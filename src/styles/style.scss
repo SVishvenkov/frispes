@@ -2,6 +2,16 @@
 @import "common/_variables";
 @import "common/_fonts";
 @import "common/_common";
+@import "common/mixins.scss";
 
 // blocks
 @import "blocks/_promo";
+@import "blocks/_header";
+@import "blocks/_intro";
+@import "blocks/_ourSpace";
+@import "blocks/_whyFrispes";
+@import "blocks/_facilities";
+@import "blocks/_useFrispes";
+@import "blocks/_footer";
+@import "blocks/_news";
+@import "blocks/_faq";

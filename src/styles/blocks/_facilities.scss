@@ -1,0 +1,66 @@
+.facilities {
+  margin-top: 110px;
+}
+
+.facilities-inner {
+  @include inner;
+}
+
+.facilities-intro {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #222831;
+  margin-bottom: 8px;
+}
+
+.facilities-title {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  color: $color-dark;
+  width: 50%;
+}
+
+.text-item {
+  li {
+    padding: 24px 0 24px 24px;
+    a {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      color: #222831;
+      width: 100%;
+    }
+
+    .active {
+      color: $color-white;
+
+      width: 100%;
+    }
+  }
+}
+
+.text-active {
+  background-color: $color-accent;
+}
+
+.facilities-content {
+  margin-top: 56px;
+  display: flex;
+}
+
+.facilities-text {
+  margin-right: 88px;
+  width: 33.33%;
+}
+
+.facilities-img {
+  width: 66.66%;
+}
