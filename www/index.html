@@ -9,6 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 </head>
 
 <body>
@@ -76,20 +77,7 @@
                 <img src="../images/intro3.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
-            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button> -->
           </div>
-          <!-- <img src="../images/intro1.jpg" alt="">
-          <img src="../images/intro2.jpg" alt="">
-          <img src="../images/intro3.jpg" alt="" /> -->
         </div>
 
     </section>
@@ -103,53 +91,117 @@
             with your team or personally
           </p>
           <div class="our-space-nav">
-            <button></button>
-            <button></button>
+            <button class="our-nav-but"><img src="../images/news/ourLeft.png" alt="" class="our-left"></button>
+            <button class="our-nav-but"><img src="../images/news/outRight.png" alt="" class="our-right"></button>
           </div>
 
-          <p>Здесь будет еще один слайдер</p>
 
         </div>
 
-        <div class="space-cards"></div>
+        <div class="space-cards">
+          <div class="our-space-cards">
+            <div class="our-space-cards-img">
+              <img src="../images/ourSpaces1.jpg" alt="">
+              <div class="our-space-relative">
+                <button class="button-space-cards"><img src="../images/news/ourspace.png" alt=""></button>
+              </div>
+            </div>
+            <span class="our-space-cards-sub">Working with team</span>
+          </div>
+
+          <div class="our-space-cards our-space-cards-active">
+            <div class="rotate-img">
+              <img src="../images/ourSpacesRotate.png" alt="" class="rotate">
+            </div>
+            <p class="h3">Private Space</p>
+            <p class="out-space-text-cards">Comfortable space, Full speed wifi, Free coffe & Snack
+              and many more</p>
+            <div class="our-space-relative our-space-relative-active">
+              <button class=" button-space-cards-active">Check avaibility<img src="../images/news/ourspace.png" alt=""
+                  class="img-button-our"></button>
+            </div>
+
+          </div>
+
+          <div class="our-space-cards">
+            <div class="our-space-cards-img">
+              <img src="../images/ourSpaces2.jpg" alt="">
+              <div class="our-space-relative">
+                <button class="button-space-cards"><img src="../images/news/ourspace.png" alt=""></button>
+              </div>
+            </div>
+            <span class="our-space-cards-sub">Custom Office</span>
+          </div>
+        </div>
       </div>
       </div>
     </section>
 
     <section class="why-frispes">
       <div class="why-frispes-inner">
+
         <div class="our-support">
-          <div class="card-support">
-            <div class="card-item">
-              <img src="#" alt="" class="card-support-img">
-              <p class="card-support-text">500+</p>
-              <p class="card-support-subtitle">Meeting rooms</p>
-            </div>
+          <div class="card-item">
             <div class="card-support">
-              <img src="#" alt="" class="card-support-img">
-              <p class="card-support-text">100+</p>
-              <p class="card-support-subtitle">Event spaces</p>
+              <div class="imgcard-support">
+                <img src="../images/iconsWhy/meeting-room 1.svg" alt="" class="card-support-img">
+              </div>
+              <div class="card-support-info">
+                <p class="card-support-text">500+</p>
+                <p class="card-support-subtitle">Meeting rooms</p>
+              </div>
             </div>
+
             <div class="card-support">
-              <img src="#" alt="" class="card-support-img">
-              <p class="card-support-text">60+</p>
-              <p class="card-support-subtitle">Countries</p>
+              <div class="imgcard-support">
+                <img src="../images/iconsWhy/circus 1.svg" alt="" class="card-support-img">
+              </div>
+              <div class="card-support-info">
+                <p class="card-support-text">100+</p>
+                <p class="card-support-subtitle">Event spaces</p>
+              </div>
             </div>
+
             <div class="card-support">
-              <img src="#" alt="" class="card-support-img">
-              <p class="card-support-text">500 Mbps</p>
-              <p class="card-support-subtitle">Internet speed</p>
+              <div class="imgcard-support">
+                <img src="../images/iconsWhy/Vector 4.svg" alt="" class="card-support-img">
+              </div>
+              <div class="card-support-info">
+                <p class="card-support-text">60+</p>
+                <p class="card-support-subtitle">Countries</p>
+              </div>
             </div>
+
             <div class="card-support">
-              <img src="#" alt="" class="card-support-img">
-              <p class="card-support-text">5K+</p>
-              <p class="card-support-subtitle">Startup mentors</p>
+              <div class="imgcard-support">
+                <img src="../images/iconsWhy/wifi 1.svg" alt="" class="card-support-img">
+              </div>
+              <div class="card-support-info">
+                <p class="card-support-text">500 Mbps</p>
+                <p class="card-support-subtitle">Internet speed</p>
+              </div>
             </div>
+
             <div class="card-support">
-              <img src="#" alt="" class="card-support-img">
-              <p class="card-support-text">200+</p>
-              <p class="card-support-subtitle">Communities inside</p>
+              <div class="imgcard-support">
+                <img src="../images/iconsWhy/User 24px.svg" alt="" class="card-support-img">
+              </div>
+              <div class="card-support-info">
+                <p class="card-support-text">5K+</p>
+                <p class="card-support-subtitle">Startup mentors</p>
+              </div>
             </div>
+
+            <div class="card-support">
+              <div class="imgcard-support">
+                <img src="../images/iconsWhy/Users 24px.svg" alt="" class="card-support-img">
+              </div>
+              <div class="card-support-info">
+                <p class="card-support-text">200+</p>
+                <p class="card-support-subtitle">Communities inside</p>
+              </div>
+            </div>
+
           </div>
 
           <div class="why-frispes-text">
@@ -161,6 +213,9 @@
               people</p>
           </div>
         </div>
+
+      </div>
+      </div>
       </div>
     </section>
     <section class="facilities">
@@ -214,6 +269,74 @@
             <img src="../images/logo-stripe.svg" alt="">
           </li>
         </ul>
+
+
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="reviews-inner">
+        <div class="reviews-header">
+          <div class="reviews-title">
+            <div class="reviews-title-info">
+              <p class="reviews-info">Reviews</p>
+              <p class="h2">What our customers <br> are saying</p>
+            </div>
+            <div class="reviews-nav">
+              <button><img src="../images/news/ourLeft.png" alt=""></button>
+              <button><img src="../images/news/outRight.png" alt=""></button>
+            </div>
+          </div>
+        </div>
+        <div class="reviews-cards">
+          <div class="reviews-card-inner">
+            <div class="reviews-inner-text">
+              <p class="reviews-text-info">Our team has been working at frispes for almost 2 months because our office
+                still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful,
+                modern, and comfortable space. And cozy cafe with high-speed internet in there. Thank you for frispes
+                and team.</p>
+            </div>
+            <div class="reviews-author">
+              <div class="reviews-img-author">
+                <img src="../images/reviews-author1.png" alt="">
+              </div>
+              <div class="reviews-author-info">
+                <p class="reviews-author-name">Pedro Ibanez</p>
+                <p class="reviews-author-prof">UI Designer at Google</p>
+              </div>
+            </div>
+          </div>
+          <div class="reviews-card-inner">
+            <div class="reviews-inner-text">
+              <p class="reviews-text-info">The high-speed internet at frispes was so amazing. I can get best experience
+                when running video call with my clients. Frispes has spacious and safe parking area, that’s what i need
+                because i used to work as freelancer for a long time.</p>
+            </div>
+            <div class="reviews-author">
+              <div class="reviews-img-author">
+                <img src="../images/reviews-author2.png" alt="">
+              </div>
+              <div class="reviews-author-info">
+                <p class="reviews-author-name">Raymond Thual</p>
+                <p class="reviews-author-prof">Professional Freelancer</p>
+              </div>
+            </div>
+          </div>
+          <div class="reviews-card-inner">
+            <div class="reviews-inner-text">
+              <p class="reviews-text-info">Just three words : Frispes is Awesome!</p>
+            </div>
+            <div class="reviews-author">
+              <div class="reviews-img-author">
+                <img src="../images/reviews-author3.png" alt="">
+              </div>
+              <div class="reviews-author-info">
+                <p class="reviews-author-name">Yuli Berlian</p>
+                <p class="reviews-author-prof">IOS Dev at Tokopedia</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
       </div>
@@ -369,6 +492,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="scripts/script.js"></script>
 </body>
 
 </html>

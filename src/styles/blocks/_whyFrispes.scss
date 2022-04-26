@@ -1,13 +1,13 @@
 .why-frispes {
-    margin-top: 110px;
+  margin-top: 110px;
 }
 
 .why-frispes-inner {
-    @include inner;
+  @include inner;
 }
 
 .our-support {
-    display: flex;
+  display: flex;
 }
 
 .card-support-text {
@@ -24,10 +24,11 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+  color: #9A9A9A;
 }
 
 .why-frispes-text {
-    padding: 54px;
+  padding: 54px;
 }
 
 .why-frispes-intro {
@@ -37,7 +38,6 @@
   font-size: 20px;
   line-height: 30px;
   padding-bottom: 8px;
-
 }
 
 .why-frispes-title {
@@ -58,18 +58,24 @@
 }
 
 .card-support {
-    width: 50%;
-    color: $color-dark;
-    display: flex;
-    flex-wrap: wrap;
+  width: 50%;
+  color: $color-dark;
+  display: flex;
+  margin-top: 30px;
 }
 
 .card-item {
-    width: 50%;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .why-frispes-text {
-    width: 50%;
-    color: #FFFFFF;
-    background-color: $color-dark;
+  width: 50%;
+  color: #ffffff;
+  background-color: $color-dark;
+}
+
+.imgcard-support {
+  margin-right: 24px;
 }
