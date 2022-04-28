@@ -7,11 +7,7 @@
 }
 
 .introducting {
-  font-family: "Lato";
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  padding-bottom: 8px;
+@include intro;
 }
 
 .accent {

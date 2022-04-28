@@ -1,12 +1,29 @@
 @mixin logo {
   font-family: "Playfair Display";
-  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
+  color: #10375c;
 }
 
 @mixin inner {
   max-width: 1110px;
   margin: 0 auto;
+}
+
+@mixin intro {
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #222831;
+}
+
+@mixin h2 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  color: #10375c;
 }

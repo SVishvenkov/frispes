@@ -1,0 +1,37 @@
+.gallery {
+    margin-top: 112px;
+    margin-bottom: 115px;
+}
+
+.gallery-inner {
+  @include inner;
+}
+
+.gallery-title {
+@include intro;
+}
+
+.gallery-sub {
+@include h2;
+}
+
+.gallery-button {
+  border: none;
+  background-color: $color-white;
+}
+
+.gallery-card {
+  display: flex;
+}
+
+.gallery-img {
+  width: 25%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.slick-initialized .slick-slide {
+  display: flex !important;
+}
+
+

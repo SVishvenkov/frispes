@@ -8,21 +8,11 @@
 }
 
 .reviews-info {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  color: #222831;
+@include intro;
 }
 
 .h2 {
-  font-family: "Lora";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 51px;
-  color: #10375c;
+@include h2;
 }
 
 .reviews-card-inner {

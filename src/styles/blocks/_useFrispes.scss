@@ -3,17 +3,11 @@
 }
 
 .use-frispes-head {
-    text-align: center;
+  text-align: center;
 }
 
 .use-frispes-title {
-  font-family: "Lora";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 51px;
-  color: #0d2c4a;
-  margin-bottom: 21px;
+  @include h2;
 }
 
 .use-frispes-subtitle {
@@ -22,15 +16,15 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
-  color: #9A9A9A;
+  color: #9a9a9a;
   margin-bottom: 56px;
 }
 
 .uses {
-    display: flex;
-    justify-content: center;
-    
-    li {
-        padding-right: 60px;
-    }
+  display: flex;
+  justify-content: center;
+
+  li {
+    padding-right: 60px;
+  }
 }

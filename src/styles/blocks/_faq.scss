@@ -8,13 +8,7 @@
 }
 
 .faq-title {
-  font-family: "Lora";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 51px;
-  text-align: center;
-  color: #10375c;
+@include h2;
   margin-bottom: 50px;
 }
 

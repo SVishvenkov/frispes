@@ -15,12 +15,7 @@
 }
 
 .news-title {
-  font-family: "Lora";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 41px;
-  color: #222831;
+@include h2;
 }
 
 .news-button {
